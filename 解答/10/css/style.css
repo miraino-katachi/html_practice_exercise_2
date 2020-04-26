@@ -1,0 +1,72 @@
+@charset "utf-8";
+body {
+    margin: 0;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    max-width: 100%;
+    background-image: url(../img/mac-2585220_1280.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 20px 0 100px 20px;
+}
+
+.header h1 {
+    color: #ffffff;
+}
+
+.header p {
+    color: #ffffff;
+}
+
+.navi {
+    max-width: 100%;
+}
+
+.navi ul {
+    list-style: none;
+    display: flex;
+}
+
+.navi ul li {
+    margin-right: 10px;
+}
+
+.main {
+    max-width: 100%;
+    display: flex;
+}
+
+.menu {
+    width: 30%;
+}
+
+.contents {
+    width: 70%;
+}
+
+h2 {
+    border-left: #5dacdd solid 3px;
+    padding-left: 10px;
+}
+
+.contents h2 {
+    font-size: 2rem;
+}
+
+.contents h3 {
+    border-bottom: #5dacdd solid 2px;
+}
+
+.contents img {
+    width: 100%;
+}
+
+.footer {
+    max-width: 100%;
+}
